@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://kit.fontawesome.com/471350f86d.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Vikas</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#portfolio">WORK</a></li>
+                    <li><a href="#">SKILL</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UNITY DEVELOPER</p>
+                <h2>Hi, I am <span>vikas madhukar</span><br>From Madhya Pradesh</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="car">
+        <img src="images/car.png" alt="Car">
+    </div>
+<!---------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="iteam" data-aos="fade-right">
+                    <img src="images/vikasprofile.png" alt="Profile Image">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <div class="iteam" data-aos="fade-left">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Vikas, a passionate game developer with a love for crafting immersive and engaging experiences. Whether it's designing the eerie atmosphere of a haunted haveli or building fast-paced multiplayer shootouts, I thrive on pushing the boundaries of what's possible in gaming. My journey in game development is driven by creativity, technical expertise, and a commitment to delivering unforgettable experiences to players. From intricate AI behavior to seamless multiplayer interactions, I focus on every detail to bring my visions to life.</p>
+                   
+                     <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                      
+                     <div class="tab-container active-tab" id="skill">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Unity Developer</span><br> Web/App developer</li>
+                            <li><span>Game Developer</span><br>Designing Computer/Mobile games</li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-container" id="experience">
+                        <ul>
+                            <li><span>Ex-intern</span><br>Astarix</li>
+                            <li><span></span><br> </li>
+                            <li><span></span><br></li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-container" id="education">
+                        <ul>
+                            <li><span>2026</span><br><span>B-Tech</span><br>Jaypee University of Engineering and Technology</li>
+                            <li><span>2022</span><br>12<sup>th</sup><br>Hindupat Public School </li>
+                            <li><span>2020</span><br>10<sup>th</sup><br>Hindupat Public School </li>
+                        </ul>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!---------------------------------services---------------------------------------->
+ 
+ <div id="services">
+    <div class="content">
+        <h1 class="sub-title">My Services</h1>
+        <div class="servic-list">
+            <div class="iteam" data-aos="fade-up" >
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>As a skilled web developer with a passion for creating visually stunning and highly functional websites, 
+                  I offer professional web design services tailored to meet the unique needs of your business or project. </p>
+                <a href="#">Learn More</a>
+            </div>
+            
+            <div class="iteam" data-aos="fade-up" >
+                <i class="fa-brands fa-android"></i>
+                <h2>AR Web/App</h2>
+                <p>As an experienced AR developer specializing in Unity, 
+                  I bring your ideas to life by creating immersive and interactive augmented reality experiences for web and mobile applications. 
+                 </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="iteam" data-aos="fade-up" >
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Developer</h2>
+                <p>As a passionate and experienced game developer, 
+                 I specialize in creating engaging and immersive gaming experiences that captivate players and bring your vision to life. With a strong foundation in game design, programming, and storytelling, 
+                 </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------My work---------------------------------------->
+
+
+<div id="portfolio">
+    <div class="content">
+        <h1 class="sub-title"><a herf="mywork.html">My Work</a></h1>
+
+        <div class="work-list" data-aos="fade-left">
+            
+            <div class="work" data-tilt data-tilt-scale="1.1">
+                <img src="images/amounginage.png">
+                <div class="layer">
+                    <h3>Amoung us</h3>
+                    <p>The is the 3D version of amoung us game</p>
+                   
+                </div>
+            </div>
+
+            <div class="work" data-tilt data-tilt-scale="1.1">
+                <img src="images/Dread Halls.png">
+                <div class="layer">
+                    <h3>Dread Halls</h3>
+                    <p>online multiplayer shooter game</p>
+                    
+                </div>
+            </div>
+
+
+            <div class="work" data-tilt data-tilt-scale="1.1">
+                <img src="images/spaceship2.jpg" >
+                <div class="layer">
+                    <h3>AR aeroplane</h3>
+                    <p>AR spaceship that come out from the image</p>
+                    
+                </div>
+            </div>
+        </div>
+        <a herf="mywork.html" class="btn">see more</a>
+    </div>
+
+</div>
+<!----------------------------------------------contact----------------------------------------------->
+
+<div id="contact">
+    <div class="content">
+        <div class="row">
+            <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-paper-plane"></i>vikasmadhukar1430@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>7999063330</p>
+                <div class="social-icon">
+                    <a href=" "><i class="fa-brands fa-facebook"></i></a>
+                    <a href=" "><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=" "><i class="fa-brands fa-github"></i></a>
+                    <a href=" "><i class="fa-brands fa-square-twitter"></i></i></a>
+                    <a href=" "><i class="fa-brands fa-linkedin"></i></i></a>     
+                </div>
+                <a href="images/mycv.pdf" download class="btn bt2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ vikas madhukar</p>
+    </div>
+</div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
